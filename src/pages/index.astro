@@ -1,4 +1,7 @@
 ---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 const pageTitle = "Index";
 ---
 
@@ -12,10 +15,12 @@ const pageTitle = "Index";
     <title>{pageTitle}</title>
   </head>
   <body>
+    <Header />
     <a href="/astro-site/">Home</a>
     <a href="/astro-site/about/">About</a>
     <a href="/astro-site/blog/">Blog</a>
 
     <h1>{pageTitle}</h1>
+    <Footer />
   </body>
 </html>
