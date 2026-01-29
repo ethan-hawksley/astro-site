@@ -3,5 +3,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hawksley.dev/astro-site",
+  site: "https://hawksley.dev",
+  base: "/astro-site",
+  trailingSlash: "always",
 });
