@@ -51,7 +51,7 @@ h1 {
   background-color: #ff9776;
 }
 
-:has(.menu[aria-expanded="true"]) .nav-links {
+:has(.menu[aria-expanded='true']) .nav-links {
   display: unset;
 }
 
